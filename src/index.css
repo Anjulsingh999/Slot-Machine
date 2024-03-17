@@ -1,13 +1,74 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  user-select: none;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  height: 100vh;
+  width: 100%;
+}
+.navbar{
+  height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  
+}
+
+.slotm{
+  font-weight: 600;
+}
+
+.main-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.machine-box
+{
+  height: auto;
+  width: 400px;
+  border: 1px solid;
+}
+.boxs
+{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-direction: column;
+  background-color: aqua;
+  border: 1px solid black;
+}
+.imgs{
+  font-size: 1.5rem;
+}
+.text-result
+{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+@media (max-width:430px)
+{
+  .machine-box
+{
+  width: 300px;
+}
+
+.navbar{
+  font-size: 1.4rem;
+  
+}
 }
