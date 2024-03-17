@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Anjulsingh999/Slot-Machine/static/css/main.e3f7ce3c.css",
+    "main.js": "/Anjulsingh999/Slot-Machine/static/js/main.a61df6e9.js",
+    "index.html": "/Anjulsingh999/Slot-Machine/index.html",
+    "main.e3f7ce3c.css.map": "/Anjulsingh999/Slot-Machine/static/css/main.e3f7ce3c.css.map",
+    "main.a61df6e9.js.map": "/Anjulsingh999/Slot-Machine/static/js/main.a61df6e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3f7ce3c.css",
+    "static/js/main.a61df6e9.js"
+  ]
+}
